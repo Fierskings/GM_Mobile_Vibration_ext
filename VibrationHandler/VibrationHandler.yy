@@ -20,7 +20,7 @@
   "installdir": "",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"VibrationHandler.ext","origname":"","init":"","final":"","kind":4,"uncompress":false,"functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"CanVibrate","externalName":"CanVibrate","kind":4,"help":"check if device has a vibrator","hidden":false,"returnType":1,"argCount":0,"args":[],},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"CanVibrate","externalName":"CanVibrate","kind":4,"help":"check if device has a vibrator","hidden":false,"returnType":2,"argCount":0,"args":[],},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"VibrateOnce","externalName":"VibrateOnce","kind":4,"help":"(Time in Ms, Strenght 1-255)","hidden":false,"returnType":2,"argCount":0,"args":[
             2,
             2,

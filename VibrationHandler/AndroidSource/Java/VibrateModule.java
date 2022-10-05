@@ -39,7 +39,7 @@ public class VibrateModule extends RunnerActivity {
             vibrer.vibrate(VibrationEffect.createOneShot((int)len,(int) strenght));
         }else{
 
-          vibrer.vibrate(200);
+          vibrer.vibrate((int)len);
 
         }
 
@@ -47,16 +47,16 @@ public class VibrateModule extends RunnerActivity {
     }
   }
 
-  public String CanVibrate()
+  public double CanVibrate()
   {
-    String Result="0";
+    int Result=0;
     String vs = RunnerActivity.CurrentActivity.getApplicationContext().VIBRATOR_SERVICE;
     Vibrator mVibrator = (Vibrator)RunnerActivity.CurrentActivity.getSystemService(vs);
     boolean isVibrator = mVibrator.hasVibrator();
 
     if(isVibrator){
 
-      Result= "1";
+      Result= 1;
 
     }
 
